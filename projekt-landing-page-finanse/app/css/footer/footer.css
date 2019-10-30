@@ -1,0 +1,34 @@
+footer {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #292929;
+}
+
+footer .footer-div {
+    margin: auto;
+    flex-basis: 80%;
+}
+
+footer .yellow-background {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #ecd407;
+    color: #000;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+footer .fonts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer .fonts .trzymacz {
+    text-align: center;
+}

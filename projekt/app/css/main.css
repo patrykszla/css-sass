@@ -1,0 +1,43 @@
+p {
+    color: #200;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: red;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-inner {
+    flex-basis: 50%;
+    height: 30%;
+    background-color: red;
+}

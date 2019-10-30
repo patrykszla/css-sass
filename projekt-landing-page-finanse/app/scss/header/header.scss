@@ -1,0 +1,39 @@
+@import "../variables";
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    
+
+    .finances {
+        display: inline-block;
+        i {
+            color: $yellow;
+            padding: 10px;
+        }
+    }
+
+    .call {
+
+        h3 {
+            margin: 0;
+        }
+
+
+        p{
+        
+            margin-left: 8px;
+            display: inline-block;
+            i{
+                
+                margin-right: 5px;
+                padding: 10px;
+            }
+        }
+    }
+}

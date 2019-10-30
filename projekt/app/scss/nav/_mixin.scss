@@ -1,0 +1,11 @@
+@mixin centrowanieFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin widthHeight($width, $height) {
+    flex-basis: $width;
+    height: $height;
+}

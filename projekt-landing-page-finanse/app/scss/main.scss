@@ -1,0 +1,15 @@
+@import "variables"; 
+@import "header/header.scss";
+@import "main-section/main-section.scss";
+@import "form/form.scss";
+@import "footer/footer.scss";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font;
+}

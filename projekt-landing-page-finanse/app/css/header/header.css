@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.header .finances {
+    display: inline-block;
+}
+
+.header .finances i {
+    color: #ecd407;
+    padding: 10px;
+}
+
+.header .call h3 {
+    margin: 0;
+}
+
+.header .call p {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.header .call p i {
+    margin-right: 5px;
+    padding: 10px;
+}

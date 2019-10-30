@@ -1,0 +1,39 @@
+@import "../variables";
+
+
+footer { 
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+    width: 100%;
+    height: 200px;
+    background-color: $gray; 
+
+    .footer-div {
+        margin: auto;
+            flex-basis: 80%;
+    }
+
+    .yellow-background {
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+        background-color: $yellow;
+        color: #000;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .fonts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .trzymacz {
+            text-align: center;
+        }
+    }
+
+}
+

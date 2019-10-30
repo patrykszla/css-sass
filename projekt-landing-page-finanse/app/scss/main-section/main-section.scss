@@ -1,0 +1,83 @@
+@import "../variables";
+
+
+.main-section {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+    
+   .main-container {
+            max-width: 1200px;
+            margin: auto;
+
+             .form-main-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+                margin-top: 115px;
+
+                form {
+                    width: 90%;
+                }
+
+                .form-main-div {
+                    flex-basis: 35%;
+                    margin-left: 10px;
+                }
+         
+                h1 {
+                    color: #fff;
+
+                    .yellow {
+                        color: $yellow;
+                    }
+                }
+                h3 {
+                    color: #fff;
+                    
+                }
+                
+                .form-container {
+                    
+                    background-color: $blue;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    
+                    .header-form {
+                        width: 90%;
+                    }
+                    
+                    
+                    
+                    .input {
+                        width: 100%;
+                        margin: 7px auto;
+                        padding: 10px;
+                        
+
+                    }
+
+                    .btn {
+                        color: #000;
+                        background-color: $yellow;
+                        border: 1px $yellow;
+                        width: 90px;
+                        height: 50px;
+                        margin-bottom: 14px;
+                        display: block;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        
+                    } 
+            
+                 }
+            
+             }
+ 
+            
+     }
+}
+

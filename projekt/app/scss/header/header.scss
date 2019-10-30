@@ -1,0 +1,21 @@
+@import '../nav/mixin';
+
+header{
+    height: 100vh;
+    @include centrowanieFlex;
+
+    .header-inner {
+        // width: 50%;
+        // height: 50%;
+        @include widthHeight(50%, 30%);
+        background-color: red;
+
+        @media all and (max-Wwidth: 768px) {
+            & {
+                 background-color: green;
+            }
+         }
+       
+    }
+    
+}
